@@ -12,8 +12,9 @@
 }
 
 .tti-about_container--text {
-    padding: 40px 150px 40px 40px;
-    width: 60%;
+    padding: 40px 170px 40px 40px;
+    font-size: 22px;
+    text-align: left;
 }
 
 .tti-about_container--image {
@@ -61,7 +62,8 @@
     }
 
     .tti-about_container--text {
-        padding: 20px;
+        padding: 0;
         width: 100%;
+        font-size: 20px;
     }
 }
