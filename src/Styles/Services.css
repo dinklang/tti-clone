@@ -1,0 +1,52 @@
+.tti-services_container {
+    color: var(--color-lighter);
+    font-size: 60px;
+    text-align: center;
+}
+
+.tti-services_container--title p {
+    padding: 50px;
+    margin: 0;
+}
+.tti-services_container--sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.tti-services_container--sections__content {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    background: var(--color-subtext);
+}
+
+.tti-services_container--sections__content img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.desc {
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+}
+
+.image {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .tti-services_container--sections {
+        display: block;
+        justify-content: center;
+    }
+}
