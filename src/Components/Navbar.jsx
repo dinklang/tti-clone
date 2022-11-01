@@ -32,8 +32,8 @@ function Navbar() {
         ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
         : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
-          <div className="pog-navbar__menu scale-up-center">
-            <div className="pog-navbar__menu--links">
+          <div className="tti-navbar_menu scale-up-center">
+            <div className="tti-navbar_menu--links">
               <Menu />
             </div>
           </div>
